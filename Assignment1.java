@@ -31,6 +31,8 @@ public class Assignment1 {
 
     tempC = ((5 * (tempF - 32.0)) / 9);
 
+    randNum = rand.nextInt(100000-10000)+10000;
+    
     
   }
 }
