@@ -37,6 +37,7 @@ public class Assignment1 {
     String letter3 = input.substring(2,3);
     String letter4 = input.substring(3,4);
 
-    
+    System.out.println("Your new string is " + tempC + letter4 + letter3 + letter2 + randNum);
+    scan.close();
   }
 }
