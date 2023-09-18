@@ -33,6 +33,10 @@ public class Assignment1 {
 
     randNum = rand.nextInt(100000-10000)+10000;
     
+    String letter2 = input.substring(1,2);
+    String letter3 = input.substring(2,3);
+    String letter4 = input.substring(3,4);
+
     
   }
 }
