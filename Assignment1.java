@@ -2,18 +2,15 @@
 // Nicolas Salinetti
 
 import java.util.Scanner;
-import java.util.Random;
 
 public class Assignment1 {
   public static void main(String[] args) {
-    // Add your code here
-
+    
     String input;
     double tempF;
     double tempC;
     int randNum;
 
-    Random rand = new Random();
     Scanner scan = new Scanner(System.in);
 
     System.out.println("NNN   NNN    SSSSSSSS");
@@ -31,7 +28,7 @@ public class Assignment1 {
 
     tempC = ((5 * (tempF - 32.0)) / 9);
 
-    randNum = rand.nextInt(16384)+32;
+    randNum = (int)(Math.random() * 16384) + 32;
     
     String letter2 = input.substring(1,2);
     String letter3 = input.substring(2,3);
