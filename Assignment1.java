@@ -13,12 +13,12 @@ public class Assignment1 {
     Scanner scan = new Scanner(System.in);
 
     System.out.println(
-      "NNN   NNN    SSSSSSSS"
-    + "\nNNNN  NNN   SSSS"
-    + "\nNNNNN NNN    SSSS"
-    + "\nNNN NNNNN       SSSS"
-    + "\nNNN  NNNN        SSSS"
-    + "\nNNN   NNN   SSSSSSSS"
+        "\nNNN   NNN    SSSSSSSS"
+      + "\nNNNN  NNN   SSSS"
+      + "\nNNNNN NNN    SSSS"
+      + "\nNNN NNNNN       SSSS"
+      + "\nNNN  NNNN        SSSS"
+      + "\nNNN   NNN   SSSSSSSS"
     );
 
     System.out.println("Please enter a 5-character string:");
